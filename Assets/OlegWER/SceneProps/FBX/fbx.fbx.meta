@@ -1,0 +1,371 @@
+fileFormatVersion: 2
+guid: 2a84a94dea8b78441b78d597a4b61b63
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mi_001
+    second: {fileID: 2100000, guid: af073d2940f7d5543b600e1375ec3919, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mi_002
+    second: {fileID: 2100000, guid: 8b793d63438dcea46beffb7840f09472, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mi_003_SM_10
+    second: {fileID: 2100000, guid: 053d6ae37aeb28f46bd92f38fc9a431d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mi_004
+    second: {fileID: 2100000, guid: e771a9a5808949d40b8fc72353af29a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mi_005
+    second: {fileID: 2100000, guid: 88b9d2fd0f3f1964c86f0be1d27fbc86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mi_006
+    second: {fileID: 2100000, guid: ecada0761bb75b44d8c8181a3afab6f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mi_007
+    second: {fileID: 2100000, guid: 390ffad7008d4714491900e99f9e6023, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mi_008
+    second: {fileID: 2100000, guid: 32c3235a4b6b9c0418b42ddf7fbe54fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mi_009
+    second: {fileID: 2100000, guid: 9733c661dc2234943b7a5099c65b4abe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mi_010
+    second: {fileID: 2100000, guid: 5005d5768ebf0c445bc1dcb12927fbf0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mi_011
+    second: {fileID: 2100000, guid: c796064c4b080e346ac8e8dad58b1b5d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mi_012
+    second: {fileID: 2100000, guid: 6e69975063bc76d4c985caefbc9df007, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mi_013_SM_12
+    second: {fileID: 2100000, guid: e8d57794c77704b4b87f8b8a868993eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mi_013_SM_18
+    second: {fileID: 2100000, guid: 4b383298e316d1f4b9c9c9333b5844e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mi_013_SM_19
+    second: {fileID: 2100000, guid: b3e475a7a79bbb644bbeae3777a3e64e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mi_013_SM_20
+    second: {fileID: 2100000, guid: c340663608aed2449bcf5ae6fcabd2ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mi_013_SM_21
+    second: {fileID: 2100000, guid: 3b6120851f5dfdc4b9ffe89ad6be7639, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mi_013_SM_22
+    second: {fileID: 2100000, guid: b4ba9e0d7a2f7334a8e806fee9a09a7b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mi_013_SM_27
+    second: {fileID: 2100000, guid: e4bbfeb14ee14724fa038bf2428cff17, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mi_013_SM_28
+    second: {fileID: 2100000, guid: b1eec845db7699a4d914dd2d5172d843, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mi_013_SM_29
+    second: {fileID: 2100000, guid: 229fa1b633477b24392bf77deeb8d50f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mi_013_SM_30
+    second: {fileID: 2100000, guid: 9c85eaac43ca53948b9c64ec074e0f14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mi_013_SM_31
+    second: {fileID: 2100000, guid: 16cb0270aeddb184e9754ecaf2c0bb51, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mi_013_SM_32
+    second: {fileID: 2100000, guid: 84cd7709087769044a4affd6e8f64643, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mi_013_SM_33
+    second: {fileID: 2100000, guid: 19bbe6377bec5744998711623b97974e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mi_013_SM_34
+    second: {fileID: 2100000, guid: 25a98220480d2c149af134228216c624, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mi_013_SM_36
+    second: {fileID: 2100000, guid: d6d5ca732090e7249a81fe0aaa3a91d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mi_013_SM_37
+    second: {fileID: 2100000, guid: 39fc9f55691384145b6fe3d5f2c5d91d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mi_013_SM_38
+    second: {fileID: 2100000, guid: f26fa80d61f711146acbe9bf08580a93, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mi_013_SM_39
+    second: {fileID: 2100000, guid: ca352333dc13998429c4ebad1c2b8fcb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mi_013_SM_40
+    second: {fileID: 2100000, guid: 26e15f36b9918714f845e60f1747f7f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mi_013_SM_41
+    second: {fileID: 2100000, guid: 394ba996c6a01a44d9d284645c3eefa4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mi_013_SM_42
+    second: {fileID: 2100000, guid: 4f1f2055faee2fe4d9c76ad317e0988e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mi_013_SM_43
+    second: {fileID: 2100000, guid: 4fbcb0ee508ba0b4b9830f71f77ea959, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mi_013_SM_44
+    second: {fileID: 2100000, guid: 199319f7d3467f643a9c71eba76e890e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mi_013_SM_45
+    second: {fileID: 2100000, guid: d93a6002436e19a479381c7a68bc6c74, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mi_013_SM_46
+    second: {fileID: 2100000, guid: 696f365901d36bb4289c63433b392335, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mi_013_SM_47
+    second: {fileID: 2100000, guid: 386ce6de1ebaa3e498314b9a1d4c433a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mi_014
+    second: {fileID: 2100000, guid: e416d573d4e60c541b8c63f8debdb1c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mi_015
+    second: {fileID: 2100000, guid: 3d19cf6d2c0bd9e4c996aa78dc61bf14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mi_016
+    second: {fileID: 2100000, guid: 423457511f8faf742b324a82b8ced448, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mi_017
+    second: {fileID: 2100000, guid: e3e52669f7088a54caba07379e38f44d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mi_018
+    second: {fileID: 2100000, guid: 700c10a738e0ae54d9da23d2378be041, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mi_019
+    second: {fileID: 2100000, guid: b56480a6f041f914f874c8aa0bc88c1a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mi_020
+    second: {fileID: 2100000, guid: 8a22771a7fbb8ad4bb7fbb1948ecaf46, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mi_021
+    second: {fileID: 2100000, guid: fb3acdbcf67e5f44781d9b34529e96de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mi_022
+    second: {fileID: 2100000, guid: 502f2d5a751610f4383dd42396a9134b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mi_023
+    second: {fileID: 2100000, guid: 0dab1105ea2c4b447885d1f1f45db985, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mi_024
+    second: {fileID: 2100000, guid: d9389652eaea6c647b82905cbb14721a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mi_025
+    second: {fileID: 2100000, guid: 89d0ed07d13536d48b3233bcaad2c7ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mi_026
+    second: {fileID: 2100000, guid: ad780cc19886a9d42b1ba85c410834bf, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 406114
+  packageName: "Arena Stage Venue Props Pack \u2013 Modular 3D Event Stage, Truss, Lighting"
+  packageVersion: 1.0
+  assetPath: Assets/OlegWER/SceneProps/FBX/fbx.fbx
+  uploadId: 990998
