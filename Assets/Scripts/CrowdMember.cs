@@ -11,6 +11,8 @@ public class CrowdMember : MonoBehaviour {
     public string[] danceStates = new string[] { "Dance1", "Dance2" };
     public string cheerState = "Cheer";
     public float cheerDuration = 3f;
+    public GameObject phoneProp;  // glowing phone in the other hand (optional)
+    [Range(0f, 1f)] public float phoneChance = 0.15f;  // share of people filming the show
     public GameObject handProp;   // glow stick / lighter parented to the hand bone, starts disabled
 
     private Animator anim;
@@ -20,6 +22,7 @@ public class CrowdMember : MonoBehaviour {
     void OnDisable() { All.Remove(this); }
 
     void Start() {
+        if (phoneProp != null) phoneProp.SetActive(Random.value < phoneChance);
         anim = GetComponentInChildren<Animator>();
         if (handProp != null) handProp.SetActive(false);
         if (anim == null) return;

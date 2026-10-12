@@ -4,6 +4,9 @@ using UnityEngine;
 // Put this on an empty "StageLights" object and drag in one of the stage speakers.
 
 public class AudioReactiveLights : MonoBehaviour {
+    // 0 = blackout, 1 = normal. ShowIntro fades this for the opening moment.
+    public static float masterLevel = 1f;
+
     public AudioSource source;
     public Light[] lights;
     public float minIntensity = 0.5f;
@@ -44,6 +47,10 @@ public class AudioReactiveLights : MonoBehaviour {
             new GradientAlphaKey[] { new GradientAlphaKey(1f, 0f), new GradientAlphaKey(1f, 1f) });
     }
 
+    void Awake() {
+        masterLevel = 1f;
+    }
+
     void Start() {
         baseRotations = new Quaternion[movingHeads.Length];
         for (int i = 0; i < movingHeads.Length; i++) {
@@ -67,7 +74,7 @@ public class AudioReactiveLights : MonoBehaviour {
 
         for (int i = 0; i < lights.Length; i++) {
             if (lights[i] == null) continue;
-            lights[i].intensity = Mathf.Lerp(minIntensity, maxIntensity, level);
+            lights[i].intensity = Mathf.Lerp(minIntensity, maxIntensity, level) * masterLevel;
             if (colorCycle != null) {
                 float t = Mathf.Repeat(Time.time * colorCycleSpeed + i * 0.15f, 1f);
                 lights[i].color = colorCycle.Evaluate(t);
@@ -84,7 +91,7 @@ public class AudioReactiveLights : MonoBehaviour {
         for (int i = 0; i < emissiveRenderers.Length; i++) {
             if (emissiveRenderers[i] == null || colorCycle == null) continue;
             Color c = colorCycle.Evaluate(Mathf.Repeat(Time.time * colorCycleSpeed, 1f));
-            emissiveRenderers[i].material.SetColor("_EmissionColor", c * (0.3f + level * 2f));
+            emissiveRenderers[i].material.SetColor("_EmissionColor", c * (0.3f + level * 2f) * masterLevel);
         }
     }
 }

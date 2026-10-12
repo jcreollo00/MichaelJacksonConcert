@@ -50,7 +50,7 @@ public class ConcertManager : MonoBehaviour {
     }
 
     void Start() {
-        SetSign("Doors open...");
+        SetSign("");
         if (performer != null && !string.IsNullOrEmpty(idleState)) performer.CrossFade(idleState, 0f);
         if (autoStart && setlist.Count > 0) {
             setRoutine = StartCoroutine(RunSet(0, startDelay));
@@ -99,7 +99,7 @@ public class ConcertManager : MonoBehaviour {
             if (i >= setlist.Count && loopSetlist) i = 0;
         }
 
-        SetSign("Thank you, goodnight!");
+        SetSign("");
         Dance(idleState);
     }
 
