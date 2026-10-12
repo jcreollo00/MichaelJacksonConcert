@@ -112,3 +112,8 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+# Video recordings (too large for GitHub)
+/Recordings/
+# Claude's test screenshots
+/Captures/

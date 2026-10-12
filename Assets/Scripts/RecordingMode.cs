@@ -37,7 +37,8 @@ public class RecordingMode : MonoBehaviour {
             centerCamera.gameObject.SetActive(true);
             centerCamera.enabled = true;
             if (on) {
-                centerCamera.ResetProjectionMatrix();   // normal perspective instead of the wall's off-axis one
+                centerCamera.ResetProjectionMatrix();       // normal perspective instead of the wall's off-axis one
+                centerCamera.ResetWorldToCameraMatrix();    // unlock the view so it follows the camera again
                 centerCamera.fieldOfView = recordingFieldOfView;
             }
         }
