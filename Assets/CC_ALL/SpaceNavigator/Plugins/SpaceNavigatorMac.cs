@@ -29,6 +29,8 @@ namespace SpaceNavigatorDriver {
 
 		// Public API
 		public override Vector3 GetTranslation() {
+			// No device (or driver can't load on Apple Silicon): don't call the native plugin every frame
+			if (_clientID == 0) return Vector3.zero;
 			int x = 0, y = 0, z = 0;
 			SampleTranslation(ref x, ref y, ref z);
 			float sensitivity = Application.isPlaying ? Settings.PlayTransSens : Settings.TransSens[Settings.CurrentGear];
@@ -42,6 +44,7 @@ namespace SpaceNavigatorDriver {
 							   Settings.GetLock(DoF.Translation, Axis.Z) ? 0 : SubtractDeadzone(-y, Settings.TransDead)) * sensitivity * TransSensScale);
 		}
 		public override Quaternion GetRotation() {
+			if (_clientID == 0) return Quaternion.identity;
 			int rx = 0, ry = 0, rz = 0;
 			SampleRotation(ref rx, ref ry, ref rz);
 			float sensitivity = Application.isPlaying ? Settings.PlayRotSens : Settings.RotSens;
@@ -71,8 +74,9 @@ namespace SpaceNavigatorDriver {
 			try {
 				_clientID = InitDevice();
 			}
-			catch (Exception ex) {
-				Debug.LogError(ex.ToString());
+			catch (Exception) {
+				// Space Mouse driver unavailable on this Mac; navigation with it is simply disabled.
+				_clientID = 0;
 			}
 		}
 
@@ -84,6 +88,7 @@ namespace SpaceNavigatorDriver {
 
 #region - IDisposable -
 		public override void Dispose() {
+			if (_clientID == 0) return;
 			try {
 				DisposeDevice();
 				_clientID = 0;
