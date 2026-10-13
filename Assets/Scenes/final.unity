@@ -8309,7 +8309,7 @@ Transform:
   m_GameObject: {fileID: 258025962}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.1, y: -0.1, z: 0}
+  m_LocalPosition: {x: -1.1, y: -0.13, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8333,14 +8333,16 @@ TextMesh:
 
     LB
 
-    RB'
+    RB
+
+    D-pad up/down'
   m_OffsetZ: 0
   m_CharacterSize: 0.012
   m_LineSpacing: 1
   m_Anchor: 3
   m_Alignment: 0
   m_TabSize: 4
-  m_FontSize: 72
+  m_FontSize: 64
   m_FontStyle: 1
   m_RichText: 1
   m_Font: {fileID: 0}
@@ -36850,7 +36852,7 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1849944986}
-  m_Text: 'Keyboard:  Arrows walk/turn   J/L step   G glow   C cheer   F confetti   M next'
+  m_Text: 'Keyboard:  Arrows walk/turn   PgUp/PgDn look   +/- view   G glow   C cheer   F confetti   M next'
   m_OffsetZ: 0
   m_CharacterSize: 0.012
   m_LineSpacing: 1
@@ -43584,7 +43586,7 @@ Transform:
   m_GameObject: {fileID: 2060570356}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.2, y: -0.1, z: 0}
+  m_LocalPosition: {x: -0.2, y: -0.13, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -43600,7 +43602,7 @@ TextMesh:
   m_GameObject: {fileID: 2060570356}
   m_Text: 'Walk
 
-    Turn
+    Turn / look up & down
 
     Raise glow stick
 
@@ -43608,14 +43610,16 @@ TextMesh:
 
     Confetti cannon
 
-    Next song'
+    Next song
+
+    Wider / narrower view'
   m_OffsetZ: 0
   m_CharacterSize: 0.012
   m_LineSpacing: 1
   m_Anchor: 3
   m_Alignment: 0
   m_TabSize: 4
-  m_FontSize: 72
+  m_FontSize: 64
   m_FontStyle: 0
   m_RichText: 1
   m_Font: {fileID: 0}
@@ -47128,6 +47132,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6701936679075477275, guid: 5e7c7f63928158a41a61f235324e98ab, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5175678938489736079}
+    - targetCorrespondingSourceObject: {fileID: 6701936679075477275, guid: 5e7c7f63928158a41a61f235324e98ab, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5175678938489736081}
     - targetCorrespondingSourceObject: {fileID: 6558975666177870941, guid: 5e7c7f63928158a41a61f235324e98ab, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1231940824}
@@ -47197,6 +47204,26 @@ MonoBehaviour:
   leftEye: {fileID: 5175678938489736077}
   rightEye: {fileID: 5175678938489736076}
   recordingFieldOfView: 65
+--- !u!114 &5175678938489736081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 759045520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14ade1b5bd8db4123b97eb414052dfad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WallView
+  viewWidth: 1.8
+  minWidth: 1
+  maxWidth: 3
+  widthStep: 0.15
+  lookSpeed: 55
+  maxLookUp: 55
+  maxLookDown: 45
+  stickDeadzone: 0.2
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
